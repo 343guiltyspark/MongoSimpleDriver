@@ -90,7 +90,7 @@ const mongo = require('mongodb').MongoClient;
             return error;
         }
     }
-//list export methonds
+//list export methods
 exports.defineDb = defineDb;
 exports.connectTunnel= connectTunnel;
 exports.mongoFind = mongoFind;
